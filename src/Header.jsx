@@ -3,24 +3,32 @@ import logo from "./assets/logo.avif";
 
 const Header = () => {
   return (
-    <div>
-      <div className="flex border-1 to-black  pr-32">
-        <img src={logo} className="h-24" />
-        <div className="flex-1 flex justify-center px-16 h-12 m-7  ">
-          <input
-            type="text"
-            placeholder="Search..."
-            className="border px-4 py-1 w-full max-w-md  rounded"
-          />
-        </div>
-        <div className="flex items-center space-x-16 ml-auto ">
-          <a href="/">Home</a>
-          <a href="/">About Us</a>
-          <a href="/">Contact Us</a>
-          <a href="/">Cart</a>
-        </div>
+    <header className="flex items-center justify-between px-8 py-4 shadow-md bg-white">
+      <img src={logo} alt="Logo" className="h-16" />
+
+      <div className="flex-1 flex justify-center px-4">
+        <input
+          type="text"
+          placeholder="Search..."
+          className="border px-4 py-2 w-full max-w-md rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+        />
       </div>
-    </div>
+
+      <nav className="flex items-center gap-8 text-sm font-medium">
+        <a href="/" className="hover:text-blue-600">
+          Home
+        </a>
+        <a href="/" className="hover:text-blue-600">
+          About Us
+        </a>
+        <a href="/" className="hover:text-blue-600">
+          Contact Us
+        </a>
+        <a href="/" className="hover:text-blue-600">
+          Cart
+        </a>
+      </nav>
+    </header>
   );
 };
 

@@ -3,7 +3,7 @@ import RestCards from "./RestCards";
 
 const Body = () => {
   return (
-    <div className="flex flex-wrap gap-x-0.5">
+    <div className="flex flex-wrap gap-x-0.5  ">
       <RestCards />
       <RestCards />
       <RestCards />
