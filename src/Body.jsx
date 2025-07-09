@@ -12,7 +12,6 @@ const Body = () => {
       <RestCards />
       <RestCards />
       <RestCards />
-      <RestCards />
     </div>
   );
 };
