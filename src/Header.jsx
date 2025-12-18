@@ -13,7 +13,7 @@ const Header = (props) => {
         className="border cursor-pointer rounded p-1 m-2.5"
         onClick={() => setName("Nawaz")}
       >
-        Hit Me
+        Hit Me Hard
       </button>
     </div>
   );
