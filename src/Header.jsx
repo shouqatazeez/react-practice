@@ -9,7 +9,12 @@ const Header = (props) => {
       <h1>
         Hello, {name} from {props.count}
       </h1>
-      <button onClick={() => setName("Nawaz")}>Hit Me</button>
+      <button
+        className="border cursor-pointer rounded p-1 m-2.5"
+        onClick={() => setName("Nawaz")}
+      >
+        Hit Me
+      </button>
     </div>
   );
 };
