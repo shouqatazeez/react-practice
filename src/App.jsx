@@ -3,7 +3,7 @@ import Header from "./Header";
 const App = () => {
   let country = "India";
   return (
-    <div>
+    <div className="text-center">
       <Header count={country} />
     </div>
   );
