@@ -6,10 +6,14 @@ const App = () => {
   const addvalue = () => {
     setCount(count + 1);
   };
+  const removevalue = () => {
+    setCount(count - 1);
+  };
   return (
     <div>
       <h1>Counter App value {count}</h1>
       <button onClick={addvalue}>Click me </button>
+      <button onClick={removevalue}>Remove value</button>
     </div>
   );
 };
