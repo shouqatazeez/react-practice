@@ -5,7 +5,6 @@ const App = () => {
   const [count, setCount] = useState(0);
   const addvalue = () => {
     if (count < 20) {
-      // setCount(count + 1);
       setCount((counter) => counter + 1);
       setCount((counter) => counter + 1);
     }
